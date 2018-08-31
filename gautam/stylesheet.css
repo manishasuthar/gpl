@@ -1,0 +1,363 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+ol, ul, p
+{
+    margin-top: 0;
+    margin-bottom: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-padding-start: 0px;
+}
+
+body
+{
+    font-size: 0px;
+    color: #333;
+    background-color: #fff;
+    width: 100%;
+}
+
+/***************************** Header **********************************/
+.menu-bar
+{
+    background-color: #f66284;
+    border-color: #f66284;
+}
+.menu-btn
+{
+    margin-top: 20px;
+}
+.menu
+{
+    min-height: 90px;
+}
+.navigation
+{
+    padding: 20px 0px;
+}
+.logo
+{
+    width: 90px;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color: white;
+}
+.navbar
+{
+    margin-bottom: 0px;
+}
+li a
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: white;
+}
+
+
+/**************about *************/
+#about
+{
+    background-color: #f66284;
+}
+.background {
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.about-img
+{
+    transition: 0.3s;
+}
+.about-img:hover
+{
+    border: solid 3px white;
+    opacity: 1;
+}
+
+
+/*********************** gallery ****************************************/
+.gallery
+{
+    height: 540px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover , .nav-tabs
+{
+    border: none;
+    background-color: #ffffff;
+    color: #f66284;
+}
+
+.nav-tabs>li{
+    float: none;
+    display: inline-block;
+}
+
+.nav-tabs>li.a{
+    border-bottom: 4px solid #f66284;
+    color: #0d103d;
+}
+
+.nav-tabs{
+    text-align: center;
+    border: none;
+}
+.nav-tabs>li>a:hover
+{
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 4px solid #f66284;
+    color: #f66284;
+}
+
+/****************** service *********************/
+
+.slider
+{
+    margin: auto;
+}
+.item
+{
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    color: white;
+    line-height: 200px;
+}
+
+.service-img
+{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    z-index: 5;
+}
+
+.service-text
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    color:white;
+    text-align: center;
+    opacity: 0;
+}
+
+.service-text-PRE
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    color:white;
+    text-align: center;
+    opacity: 0;
+}
+
+.item:hover .service-img
+{
+    opacity: 0.4;
+    transition: 0.3s;
+    border: solid 2px white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.item:hover .service-text
+{
+    opacity: 1;
+}
+
+
+/*****************contact ***************/
+ a , a:link , a:active , a:visited
+{
+    color: #0d103d;
+}
+
+ a:hover
+{
+    color: white;
+}
+
+.effect
+{
+    transition: all 0.3s ease;
+}
+
+/********************* color *************************/
+.col-white
+{
+    color: white;
+}
+
+.col-pink
+{
+    color: #f66284;
+}
+
+.col-blue
+{
+    color: #0d103d;
+}
+/******************************* background color ***************************/
+.bg-color-pink
+{
+    background-color:#f66284 ;
+}
+
+.bg-color-blue
+{
+    background-color: #0d103d;
+}
+
+/***************************** margin *************************8*/
+.margin-t-20
+{
+    margin-top: 20px;
+}
+.margin-t-30
+{
+    margin-top: 30px;
+}
+
+.margin-t-60
+{
+    margin-top: 60px;
+}
+
+.margin-b-30
+{
+    margin-bottom: 40px;
+}
+
+.margin-b-20
+{
+    margin-bottom: 20px;
+}
+
+.margin-l-50
+{
+    margin-left: 50px;
+}
+
+.margin-l-20
+{
+    margin-left: 30px;
+}
+
+/*************************** padding *************************8*/
+.space-100
+{
+    padding: 50px 0px;
+}
+
+.space-50
+{
+    padding: 20px 0px;
+}
+
+.space-20
+{
+    padding: 0px 0px 0px 40px;
+}
+/********************* font size ******************************/
+.font-size-14
+{
+    font-size: 12px;
+}
+
+.font-size-18
+{
+    font-size: 16px;
+}
+
+.font-size-20
+{
+    font-size: 20px;
+}
+.font-size-24
+{
+    font-size: 24px;
+}
+
+.font-size-50
+{
+    font-size: 50px;
+}
+
+/******************************** font fammily ***************************/
+.family-advent
+{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+}
+
+.family-Volkhovt
+{
+    font-family: Roboto;
+}
+
+
+/****************************/
+@media screen and (max-width: 768px) {
+
+    .logo {
+        width: 70px;
+    }
+    .menu
+    {
+        min-height: 70px;
+    }
+    .space-100
+    {
+        padding: 40px 0px;
+    }
+    .margin-t-768
+    {
+        margin-top: 30px;
+    }
+    .margin-t-768-1
+    {
+        margin-top: 50px;
+    }
+    .font-size-50
+    {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .space-100
+    {
+        padding: 30px 0px;
+    }
+
+    .margin-t-480
+    {
+        margin-top: 20px;
+    }
+    .font-size-50
+    {
+        font-size: 30px;
+    }
+    .font-size-18
+    {
+        font-size: 14px;
+    }
+
+}
